@@ -1,0 +1,41 @@
+# Vivado generated directories
+**/.Xil/
+**/*.cache/
+**/*.runs/
+**/*.sim/
+**/*.hw/
+**/*.ip_user_files/
+**/*.gen/
+**/xsim.dir/
+**/ip_user_files/
+
+# Session logs and simulator output
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.vcd
+*.vpd
+*.lpr
+*.backup.*
+*.xpr.zip
+webtalk*.xml
+webtalk*.html
+
+# Generated programming files
+*.bit
+*.bin
+*.ltx
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+
+# Preserve *.srcs/: it contains the actual HDL and block designs.
+# Preserve *.xpr, *.xdc, *.tcl, *.bd, *.wcfg, and documentation.
+# Preserve imported *.dcp files referenced by the project.
